@@ -90,7 +90,7 @@ class App extends React.Component {
                 {
                     this.state.webpage
                     ? <div>
-                        <h2 className="score">{this.state.message}</h2>
+                        <h2 className="score">{this.state.message > 50 ? 'We can\'t find anything wrong with this webapage' : 'This news is likely to be fake'}</h2>
                         <a className="tryAgain" onClick={this.resetState}>Try a different link?</a>
                     </div>
                     : <div>
