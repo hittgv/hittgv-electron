@@ -22,6 +22,13 @@ module.exports = {
                 use: [{
                     loader: 'url-loader'
                 }]
+            },
+            {
+                test: /\.png$/,
+                exclude: [/node_modules/],
+                use: [{
+                    loader: 'url-loader'
+                }]
             }
         ],
     },
