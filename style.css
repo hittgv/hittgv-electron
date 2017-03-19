@@ -19,6 +19,11 @@ body {
     text-align: center;
 }
 
+.logo {
+    width: 20em;
+    margin: 4em 0;
+}
+
 .title {
     color: #3D348B;
     font-weight: 600;
@@ -27,7 +32,7 @@ body {
 }
 
 .inputField {
-    background: #3D348B;
+    background: #4B3F9D;
     padding: 0.7em 1em;
     font-size: 2em;
     border: none;
@@ -36,26 +41,29 @@ body {
     display: inline-block;
     box-sizing: border-box;
     margin: 0;
+    font-weight: 300;
 }
 
 .inputField::-webkit-input-placeholder {
     color: white;
+    font-weight: 300;
 }
 
 .button {
     width: 20%;
     display: inline-block;
-    background: #4B3F9D;
+    background: #3D348B;
     padding: 0.7em 1em;
     font-size: 2em;
     color: white;
     border: none;
     box-sizing: border-box;
     margin: 0;
+    font-weight: 300;
 }
 
 .button:hover {
-    background: #3D348B;
+    background: #4B3F9D;
     cursor: pointer;
 }
 

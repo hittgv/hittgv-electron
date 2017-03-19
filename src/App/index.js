@@ -1,6 +1,8 @@
 import React from 'react';
 import { queryService, getHtmlFromLink } from '../api';
 
+import logo from '../assets/logo.svg';
+
 const getCurrentTabUrl = () => {
     const queryInfo = {
         active: true,
@@ -84,7 +86,7 @@ class App extends React.Component {
     render() {
         return (
             <section>
-                <h1 className="title">HITTGV</h1>
+                <img className="logo" src={logo}/>
                 {
                     this.state.webpage
                     ? <div>
@@ -96,7 +98,6 @@ class App extends React.Component {
                         <button onClick={this.submit} className="button" type="submit">Submit</button>
                     </div>
                 }
-                <div className="iframe" id="iframe"></div>
             </section>
         );
     }

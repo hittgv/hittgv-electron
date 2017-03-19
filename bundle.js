@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 201);
+/******/ 	return __webpack_require__(__webpack_require__.s = 202);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -9960,6 +9960,10 @@ var _react2 = _interopRequireDefault(_react);
 
 var _api = __webpack_require__(104);
 
+var _logo = __webpack_require__(201);
+
+var _logo2 = _interopRequireDefault(_logo);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -10067,11 +10071,7 @@ var App = function (_React$Component) {
             return _react2.default.createElement(
                 'section',
                 null,
-                _react2.default.createElement(
-                    'h1',
-                    { className: 'title' },
-                    'HITTGV'
-                ),
+                _react2.default.createElement('img', { className: 'logo', src: _logo2.default }),
                 this.state.webpage ? _react2.default.createElement(
                     'div',
                     null,
@@ -10094,8 +10094,7 @@ var App = function (_React$Component) {
                         { onClick: this.submit, className: 'button', type: 'submit' },
                         'Submit'
                     )
-                ),
-                _react2.default.createElement('div', { className: 'iframe', id: 'iframe' })
+                )
             );
         }
     }]);
@@ -23220,6 +23219,12 @@ module.exports = traverseAllChildren;
 
 /***/ }),
 /* 201 */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjYwOXB4IiBoZWlnaHQ9IjYwOHB4IiB2aWV3Qm94PSIwIDAgNjA5IDYwOCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNDEuMiAoMzUzOTcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPlNsaWNlIDE8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZGVmcz48L2RlZnM+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8cG9seWdvbiBpZD0iUGF0aC0yIiBmaWxsPSIjNEIzRjlEIiBwb2ludHM9IjU5OS4zMzA5MTMgMC4xNTY4OTA1OTIgMC44MDc3MzY1MzMgMC4xNTY4OTA1OTIgMC44MDc3MzY1MzMgNTkxLjIzNzcxNSAyODguMTkzMTggMzAzLjg1MjI3MSAyMDUuMjY5Nzc1IDIyMC45Mjg4NjYgMTYyLjgwMDE2MiAyNjMuMzk4NDc5IDIwNi4wNzQyNzcgMzA2LjY3MjU5NCA1Ni4wNTE2MjkgNDU2LjY5NTI0MyA1Ni4wNTE2MjkgNDguNzEyMTcwNyA1NDMuOTMzMDk0IDQ4LjcxMjE3MDciPjwvcG9seWdvbj4KICAgICAgICA8cG9seWdvbiBpZD0iUGF0aC0zIiBmaWxsPSIjNEIzRjlEIiBwb2ludHM9IjIwLjE1MDM2NjYgNjA3LjgwMTI2MSA2MDguNDgxNjIzIDE5LjQ3MDAwNDcgNjA4LjQ4MTYyMyA5OC41ODgzNDMgMTUwLjEzMTM2OSA1NTYuOTM4NTk3IDYwOC45MDM5MzkgNTU2LjkzODU5NyA2MDguOTAzOTM5IDYwNy41NzA0NDUiPjwvcG9seWdvbj4KICAgIDwvZz4KPC9zdmc+"
+
+/***/ }),
+/* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
